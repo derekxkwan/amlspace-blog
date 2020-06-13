@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>AML Space Blog - $title$</title>
+	<link rel="stylesheet" href="/css/bootstrap/bootstrap.css" />
+	<link rel="stylesheet" href="/css/default.css" />
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/bootstrap/bootstrap.js"></script>
+    </head>
+    <body>
+
+	$partial("templates/nav.html")$
+	<hr>
+        <div id="content">
+            <div id="pagetitle">$title$ $if(year)$ &nbsp; ($year$) $endif$ </div>
+	    $if(description)$<h4>$description$</h4>$endif$
+            $body$
+        </div>
+
+	$partial("templates/footer.html")$
+
+    </body>
+</html>

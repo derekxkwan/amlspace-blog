@@ -1,0 +1,146 @@
+
+html, body {
+    font-family:"Helvetica", sans-serif;
+    color:black;   
+    
+    font-size: 1em;
+    margin: auto 10px auto 10px;
+    background-color:white;
+    background-size:auto;
+    background-repeat:repeat;
+    background-attachment: fixed;
+}
+
+.clickImg
+{
+    height:20px;
+}
+div#header {
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+    padding: 12px 0px 12px 0px;
+}
+
+#pagetitle
+{
+    font-size:2.5em;
+    font-weight: bold;
+}
+
+div#logo a {
+    color: black;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div#header #navigation {
+    text-align: right;
+}
+
+div#header #navigation a {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+div#footer {
+    border-top: solid 2px black;
+    color: #555;
+    font-size: 1em;
+    margin-top: 30px;
+    padding: 12px 0px 12px 0px;
+    text-align: right;
+}
+
+h1 {
+    font-size: 1.75em;
+}
+
+h2 {
+    font-size: 1.5em;
+
+}
+
+.navbar,.navbar-brand
+{
+    font-size:1.5em;
+
+
+}
+
+.navbar-collapse
+{
+      align-self: flex-end;
+      margin: 0;
+      padding: 0;
+      vertical-align: bottom;
+}
+
+.navbar-brand
+{
+    font-weight:bold;
+    padding: 0;
+    margin: 0 15;
+
+}
+
+.navbar-brand:hover
+{
+    color: #ffaa55;
+
+}
+.nav-item a:hover
+{
+    color: #ffaa55;
+}
+	      
+div.info {
+    color: #555;
+    font-size: 1em;
+    font-style: italic;
+}
+
+img {
+    max-width: 100%
+    }
+
+.imgthumb{
+    max-width:10%;
+    border:0px;
+    margin:0 0;
+}
+
+.navbar
+{
+    padding: 0px;
+    margin: 0;
+    vertical-align: bottom;
+
+}
+
+
+.thumblist ul
+{
+list-style:none;
+
+
+}
+
+.thumblist ul li
+{
+margin:0 0;
+width:auto;
+border:0px;
+padding:0px;
+}
+
+ul#footer-list li
+{
+    list-style:none;
+    display: inline;
+}
